@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <div class="hero">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div id="nav-background">
+    <div id="nav-container">
+      <header id="nav-header">
+        <h1><a href="#" id="nav-logo">Countries</a></h1>
+        <div id="nav-menu-button">MENU</div>
+      </header>
       <nav>
-        <h1 class="logo">Countries</h1>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Create Activity</a></li>
+        <ul class="nav-ul hide-ul">
+          <li><a class="nav-link active-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">Create</a></li>
         </ul>
-        <form>
-          <input type="text" placeholder="search country" />
-          <button>Send</button>
-        </form>
       </nav>
     </div>
-  </body>
+  </div>
+
+  <div class="select">
+    <div class="sort">
+      <label>Sort 1</label>
+      <select>
+        <option>soccer</option>
+        <option>soccer</option>
+      </select>
+
+      <label>Sort 2</label>
+      <select>
+        <option>soccer</option>
+        <option>soccer</option>
+      </select>
+
+      <label>Sort 3</label>
+      <select>
+        <option>soccer</option>
+        <option>soccer</option>
+      </select>
+    </div>
+    <form>
+      <input type="text" placeholder="search country" />
+      <button>Send</button>
+    </form>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
 </html>
